@@ -1,0 +1,37 @@
+<html>
+<style type="text/css">
+<!--
+body {
+background: url("/images/re.jpg");
+background-size:1300px 675px;
+background-repeat:no-repeat;
+}
+-->
+</style>
+<font color="white"><em><strong><h1>Sign Up</h1></strong></em></font>
+<form action="info.php" method="post">
+    <font color="white">Username:<br></font>
+    <input type="text" name="Username"><br>
+    
+   <font color="white"> Password :<br></font>
+    <input type="password" name="Password"><br>
+   
+    <font color="white">Email  ID   :<br></font>
+<input type="text" name="Email"><br>
+
+<font color="white">Mobile :<br></font>
+<input type="number" name="Mob"><br>
+    
+  <a href="terms.html"><font color="blue">Terms and Policies</font></a><br> 
+<input type="checkbox" value="terms"><em><font color="blue">I have agreed with all terms and policies</blue></em><br>
+
+<a href="login.html"><input type="submit" value="register" target="login.html"></a>
+<a href="register.html"><input type="button" value="Refresh"></a>
+<a href="login.html"><input type="button" value="Back"></a>
+<!--<input type="submit" value="Refresh">-->
+
+
+
+</form>
+</body>
+</html>
