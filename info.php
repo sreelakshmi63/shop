@@ -1,3 +1,5 @@
+<body background="/images/re.jpg">
+<font color="green"><strong>
  <?php
 $servername = "localhost";
 $username = "root";
@@ -21,10 +23,13 @@ $mobile = $_POST['Mob'];
 $sql="INSERT INTO users (Username,Password,Email,Mob)VALUES ('$uname','$pword','$email','$mobile')";
 
 if (mysqli_query($conn, $sql))
-{ echo "Registered Successfully";
+{ echo "Registered Successfully<br>";
 }
 else
 {echo "Not connected";}
 mysqli_close($conn);
 ?>
-
+</strong>
+<a href="login.html"><em><font color="violet">Login Now</font></em></a>
+</font>
+</body>

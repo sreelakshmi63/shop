@@ -1,0 +1,22 @@
+<?php
+session_start();
+
+$page 'index.php';
+
+mysql_connect('localhost','root','qwerty') or die(mysql_error());
+mysql_select_db('shoppingcart') or die(mysql_error());
+
+function products() {
+ $get mysql_query('SELECT id, name, price FROM product WHERE quantity > 0' );
+
+ if (mysql_num_rows($get)==0) {
+ 	echo "There are no products to display!";
+ }
+ else {
+	echo "Here is your products!";
+ }
+ 
+}
+
+
+?>

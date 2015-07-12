@@ -1,0 +1,59 @@
+<html>
+<head>
+<style type="text/css">
+<!-- 
+body {
+color : blue;
+}
+a {color: #48577D; text-decoration: none;} 
+  
+a:hover {text-decoration: underline;} 
+  
+h1, h2 {margin-bottom: 15px} 
+  
+h1 {font-size: 18px;} 
+h2 {font-size: 16px} 
+    #main table { 
+            width: 480px; 
+        } 
+          
+            #main table th { 
+                padding: 10px; 
+                background-color: #48577D; 
+                color: #fff; 
+                text-align: left; 
+            } 
+              
+            #main table td { 
+                padding: 5px; 
+            } 
+            #main table tr { 
+                background-color: #d3dcf2; 
+            }
+-->
+</style>
+<h1>Product List</h1> 
+    <table> 
+        <tr> 
+            <th>Name</th> 
+            <th>Description</th> 
+            <th>Price</th> 
+            <th>Action</th> 
+        </tr> 
+        <tr> 
+            <td>Product 1</td> 
+            <td>Some random description</td> 
+            <td>15 $</th> 
+            <td><a href="#">Add to cart</a></td> 
+        </tr> 
+         <tr> 
+            <td>Product 2</td> 
+            <td>Some random description</td> 
+            <td>25 $</th> 
+            <td><a href="#">Add to cart</a></td> 
+        </tr> 
+    </table>
+</body>
+</head>
+</html>
+
